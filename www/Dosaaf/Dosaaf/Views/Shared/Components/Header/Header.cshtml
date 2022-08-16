@@ -1,0 +1,33 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Dictionary<string, string>
+
+<div id="header">
+    <div id="logo-section">
+        <img src="~/static/Icons/logo.png"/>
+    </div>
+    <div id="pages-section">
+        <ul>
+            @foreach (var items in Model)
+            {
+                <li class="header-pages-child"><a class="link-header-pages" asp-action="@items.Key" asp-controller="Home">@items.Value</a></li>
+            }
+            
+        </ul>
+    </div>
+    <div class="hamburger-menu-button">
+        <img src="~/static/Icons/more.png" />
+    </div>
+    <div class="hamburger-menu">
+        <ul>
+            @foreach (var items in Model)
+            {
+                <li class="header-pages-child"><a class="link-header-pages" asp-action="@items.Key" asp-controller="Home">@items.Value</a></li>
+            }
+            
+        </ul>
+    </div>
+    <div id="header-phone-number-section">
+        <i class="fa-solid fa-square-phone"></i>
+        <p id="number-header">+ 7 352-624-23-44</p>
+    </div>
+</div>

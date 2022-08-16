@@ -1,0 +1,451 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/*main block*/
+#wrapper {
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+/*header section*/
+#header{
+    position: absolute;
+    margin: 0px 120px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger-menu-button {
+    display: none;
+}
+.hamburger-menu{
+    display: none;
+}
+#logo-section {
+    width: 17%;
+}
+
+#logo-section img{
+    width: 100%;
+    max-width: 400px;
+}
+
+#pages-section li {
+    display: inline;
+    padding: 10px;
+    color: #000000;
+    font-size: 18px;
+}
+
+.link-header-pages{
+    text-decoration: none;
+    color: #000000;
+    font-family: Montserrat-Regular;
+}
+
+.link-header-pages:hover {
+    transition: 0.3s;
+    color: #DE2339;
+}
+
+.link-header-pages:not(hover) {
+    transition: 0.3s;
+    color: #000000;
+}
+
+#number-header:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #DE2339;
+}
+
+#number-header:not(hover) {
+    transition: 0.3s;
+    color: #000000;
+}
+
+#header-phone-number-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat-Regular;
+}
+
+#header-phone-number-section p{
+    font-size: 18px;
+}
+
+i {
+    color: #DE2339;
+    width: 30px;
+    font-size: 24px;
+}
+/*welcome section*/
+
+#welcome-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+    padding: 130px 0px 120px 120px;
+}
+
+#welcome-left-section {
+    min-width: 600px;
+}
+
+#welcome-left-section p{
+    font-family: Montserrat-Bold;
+}
+
+#welcome-left-section li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Montserrat-Regular;
+    list-style-type: none;
+}
+
+
+#welcome-right-section{
+    width: auto;
+}
+
+#welcome-right-section img{
+    width: 100%;
+    float: right;
+}
+
+#welcome-text {
+    font-size: 20px;
+    font-family: Montserrat-Bold;
+}
+
+#welcome-text h1{
+    margin: 0;
+}
+
+#welcome-red-text {
+    color: #DE2339;
+}
+
+#send-button {
+    border: none;
+    border-radius: 15px;
+    background: #DE2339;
+    padding: 20px 35px;
+    font-family: Montserrat-Bold;
+    color: #FFFFFF;
+}
+
+#send-button:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+#send-button:not(hover){
+    transition: 0.3s;
+    background: #DE2339;
+    color: #FFFFFF;
+}
+/*education section*/
+#education-package-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 120px;
+}
+
+#education-package-section h1 {
+    font-family: Montserrat-Bold;
+    font-size: 38px;
+    text-align:center;
+}
+
+#education-package-section h3 {
+    font-family: Montserrat-Regular;
+    text-align: center;
+}
+
+#education-category-cards-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.education-category-card {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    background: #D9D9D9;
+    border-radius: 50px;
+    padding-bottom: 20px;
+    margin: 20px;
+    font-family: Montserrat-Bold;
+}
+
+.education-category-card ul {
+    list-style-type: none;
+    font-family: Montserrat-Regular;
+}
+
+.education-category-card img{
+    position: relative;
+    top: -25px;
+    width: 20%;
+}
+#education-price-card {
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.count-education {
+    font-family: Montserrat-Regular;
+}
+
+.take-button {
+    border: none;
+    border-radius: 15px;
+    background: #DE2339;
+    padding: 20px 35px;
+    font-family: Montserrat-Bold;
+    color: #FFFFFF;
+}
+.take-button:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.take-button:not(hover) {
+    transition: 0.3s;
+    background: #DE2339;
+    color: #FFFFFF;
+}
+
+/*about us section*/
+#about-us-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+    padding: 130px 120px 120px 120px;
+}
+
+#about-us-left-section {
+    width: auto;
+}
+
+#about-us-left-section img {
+    width: 80%;
+    float: left;
+}
+
+#about-us-right-section {
+    text-align: right;
+    max-width: 600px;
+}
+
+#about-us-right-section h1 {
+    font-size: 38px;
+    font-family: Montserrat-Bold;
+}
+
+#about-us-right-section p {
+    font-family: Montserrat-Regular;
+}
+/*online education section*/
+#online-education-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 120px 120px 120px;
+}
+#online-education-section h1 {
+    font-family: Montserrat-Bold;
+    font-size: 38px;
+}
+
+#online-education-section p{
+    font-family: Montserrat-Regular;
+}
+/*ending section*/
+#our-autoschool-section {
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat-Bold;
+}
+
+#our-autoschool-section h1 {
+    font-size: 38px;
+}
+
+#our-autoschool-card-section {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 200px;
+} 
+
+#gps-section {
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+#points-section li {
+    list-style-type: none;
+    margin: 10px;
+}
+/*footer section*/
+
+/*!!!adaptive section!!!*/
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    #welcome-right-section{
+        display: none;
+    }
+    #header-phone-number-section {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #header {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+    }
+    .hamburger-menu-button {
+        display: flex;
+        width: 50px;
+    }
+    .hamburger-menu-button img {
+        width: 25px;
+    }
+    .hamburger-menu {
+        display: none;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        top: 120px;
+        background: #FFFFFF;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        transition: 0.5s;
+    }
+    .hamburger-menu.active{
+        display: block;
+    }
+    .hamburger-menu li{
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .hamburger-menu ul{
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    #logo-section {
+        width: 80%;
+        text-align: center;
+    }
+    #about-us-left-section img{
+        display: none;
+    }
+    #about-us-section{
+        padding: 130px 20px;
+    }
+    #about-us-right-section {
+        float: right;
+    }
+    #logo-section img {
+        width: 50%;
+    }
+    #pages-section {
+        display: none;
+    }
+    #welcome-right-section {
+        display: none;
+    }
+
+    #header-phone-number-section {
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px){
+    #logo-section img {
+        width: 200px;
+    }
+    #welcome-text h1 {
+        font-size: 20px;
+    }
+
+    #welcome-left-section {
+        min-width: 0;
+    }
+    #welcome-left-section ul{
+        padding: 0;
+    }
+
+    #gps-section {
+        display: none;
+    }
+
+    #welcome-section {
+        padding: 130px 0px 120px 50px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .education-category-card{
+        width: 250px;
+    }
+    #education-package-section h1 {
+        font-size: 20px;
+    }
+    #education-price-card{
+        font-size: 13px;
+    }
+    #welcome-section {
+        padding: 130px 0px 120px 30px;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    #header {
+        justify-content: center;
+    }
+}

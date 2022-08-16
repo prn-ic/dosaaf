@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="~/static/Icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="~/static/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="~/static/css/fonts.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width" />
+     <script src="https://api-maps.yandex.ru/2.1/?apikey=940c7c55-3f22-4cb6-9033-98686160c335&lang=ru_RU" type="text/javascript">
+    </script>
+    <script src="https://kit.fontawesome.com/2a7d351d8a.js" crossorigin="anonymous"></script>
+    <script src="~/static/js/script.js" crossorigin="anonymous"></script>
+    <title>Автошкола Досааф - @ViewBag.Title</title>
+</head>
+<body>
+    <div id="wrapper">
+       @await Component.InvokeAsync("Header")
+        <div id="main">
+            @RenderBody()
+        </div>
+    </div>
+    <div id="footer">
+        @await Component.InvokeAsync("Header")
+    </div>
+</body>
+</html>

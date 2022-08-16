@@ -1,0 +1,156 @@
+﻿@addTagHelper *, CsgoFade
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "../Shared/_Layout.cshtml";
+    ViewBag.Title = "Главная";
+}
+
+<div id="welcome-section">
+    <div id="welcome-left-section">
+        <div id="welcome-text">
+            <h1>Получи права за 3 месяца</h1>
+            <h1 id="welcome-red-text">в автошколе Досааф</h1>
+        </div>
+        <p>У нас есть:</p>
+        <ul>
+            <li><i class="fa-solid fa-caret-right"></i>Возможность онлайн обучения</li>
+            <li><i class="fa-solid fa-caret-right"></i>Рассрочка на 3 месяца</li>
+            <li><i class="fa-solid fa-caret-right"></i>Квалифицированные инструктора</li>
+            <li><i class="fa-solid fa-caret-right"></i>Качественные автомобили</li>
+        </ul>
+        <button id="send-button">Оставить заявку</button>
+    </div>
+    <div id="welcome-right-section">
+        <img src="~/static/Images/pngwing.com.png"/>
+    </div>
+    
+</div>
+<div id="education-package-section">
+    <div id="education-package-text">
+        <h1>Пакеты обучения</h1>
+        <h3>Стоимость каждого пакета соответствует указанной категории (без учета медкомиссии и прочего)</h3>
+    </div>
+    <div id="education-category-cards-list">
+            <div class="education-category-card">
+            <img src="~/static/Icons/atv.png" />
+            <h1>Категория "М"</h1>
+            <ul>
+                <li><i class="fa-solid fa-caret-right"></i>Научим управлять мопедами и легкими квадроциклами</li>
+                <li><i class="fa-solid fa-caret-right"></i>Можно сдать и ездить с 16 лет</li>
+                <li><i class="fa-solid fa-caret-right"></i>Качественное обучение</li>
+            </ul>
+            <div id="education-price-card">
+                <h2>8000 рублей</h2>
+                <h2 class="count-education">1 месяц</h2>
+            </div>
+            <button class="take-button">Записаться</button>
+        </div>
+        <div class="education-category-card">
+            <img src="~/static/Icons/motorbike.png" />
+            <h1>Категория "А"</h1>
+            <ul>
+                <li><i class="fa-solid fa-caret-right"></i>Научим водить мотоциклы</li>
+                <li><i class="fa-solid fa-caret-right"></i>Присутствует автопарк</li>
+                <li><i class="fa-solid fa-caret-right"></i>Качественное обучение</li>
+            </ul>
+            <div id="education-price-card">
+                <h2>10000 рублей</h2>
+                <h2 class="count-education">1,5 месяца</h2>
+            </div>
+            <button class="take-button">Записаться</button>
+        </div>
+        <div class="education-category-card">
+            <img src="~/static/Icons/car (1).png" />
+            <h1>Категория "B"</h1>
+            <ul>
+                <li><i class="fa-solid fa-caret-right"></i>Научим водить машину</li>
+                <li><i class="fa-solid fa-caret-right"></i>Присутствует автопарк</li>
+                <li><i class="fa-solid fa-caret-right"></i>Качественное обучение</li>
+            </ul>
+            <div id="education-price-card">
+                <h2>35000 рублей</h2>
+                <h2 class="count-education">3 месяца</h2>
+            </div>
+            <button class="take-button">Записаться</button>
+        </div>
+        <div class="education-category-card">
+            <img src="~/static/Icons/trailer.png" />
+            <h1>Категория "CE"</h1>
+            <ul>
+                <li><i class="fa-solid fa-caret-right"></i>Научим водить не только машину, но и прицеп</li>
+                <li><i class="fa-solid fa-caret-right"></i>Присутствует автопарк</li>
+                <li><i class="fa-solid fa-caret-right"></i>Качественное обучение</li>
+            </ul>
+            <div id="education-price-card">
+                <h2>18000 рублей</h2>
+                <h2 class="count-education">1 месяц</h2>
+            </div>
+            <button class="take-button">Записаться</button>
+        </div>
+    </div>
+    <h1 id="and-other">...и прочее</h1>
+    <button class="take-button">Подробнее</button>
+</div>
+<div id="about-us-section">
+    <div id="about-us-left-section">
+        <img src="~/static/Images/pngwing.com (1).png"/>
+    </div>
+    <div id="about-us-right-section">
+        <h1>О нас</h1>
+        <p>Учебный Центр Гайского ДОСААФ – это профессиональная образовательная организация, занимающаяся профессиональной подготовкой водителей транспортных средств категорий «В»,  «А» , «М»,  «СЕ», а также переподготовкой водителей транспортных средств с категории «В» на категорию «С», с категории «С» на категорию «В», с категории «С» на категорию «D».
+Наша организация имеет Лицензию: серии 56Л01 №0004633, регистрационный № 2795, выданная Министерством образования Оренбургской области, на право оказывать образовательные услуги по реализации образовательных программ.</p>
+    </div>
+</div>
+<div id="online-education-section">
+    <h1>Онлайн обучение</h1>
+    <p>В нашей автошколе также присутствует онлайн-обучение<br/>Чтобы записаться, нажмите кнопку ниже</p>
+    <button class="take-button">Оставить заявку</button>
+</div>
+<div id="our-autoschool-section">
+    <h1>Контакты</h1>
+    <div id="our-autoschool-card-section">
+        <div id="gps-section">
+        </div>
+        <div id="points-section">
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i>г.Гай, ул. Молодежная, д 4А</li>
+                <li><i class="fa-solid fa-square-phone"></i>+ 7 352-624-23-44</li>
+                <li><i class="fa-solid fa-briefcase"></i>Пн-Пт с 8:00 до 17:00</li>
+                <li><i class="fa-solid fa-at"></i>gaidosaaf@mail.ru</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    // Функция ymaps.ready() будет вызвана, когда
+    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+    ymaps.ready(init);
+    function init(){
+        // Создание карты.
+        var myMap = new ymaps.Map("gps-section", {
+            // Координаты центра карты.
+            // Порядок по умолчанию: «широта, долгота».
+            // Чтобы не определять координаты центра карты вручную,
+            // воспользуйтесь инструментом Определение координат.
+            center: [51.468475, 58.439874],
+            // Уровень масштабирования. Допустимые значения:
+            // от 0 (весь мир) до 19.
+            zoom: 16
+        });
+
+        var myPlacemarkWithContent = new ymaps.Placemark([51.468475, 58.439874], {
+            hintContent: 'Автошкола Досааф'
+        });
+        
+        myMap.geoObjects.add(myPlacemarkWithContent);
+    }
+</script>
+<script>
+    let button = document.querySelector(".hamburger-menu-button");
+    let menu = document.querySelector(".hamburger-menu");
+
+    button.addEventListener('click', function () {
+    menu.classList.toggle('active');
+    })
+</script>
