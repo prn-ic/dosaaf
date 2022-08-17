@@ -8,5 +8,9 @@ namespace Dosaaf.Controllers
         {
             return View();
         }
+        public IActionResult Tips()
+        {
+            return View();
+        }
     }
 }

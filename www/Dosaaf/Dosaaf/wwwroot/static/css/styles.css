@@ -194,6 +194,7 @@ i {
     width: 350px;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     background: #D9D9D9;
     border-radius: 50px;
     padding-bottom: 20px;
@@ -324,9 +325,185 @@ i {
 }
 /*footer section*/
 
-/*!!!adaptive section!!!*/
+/*Tips | main tips section*/
+#main-tips-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    background: #D9D9D9;
+    padding: 130px 130px 120px 120px;
+    font-family: Montserrat-Regular;
+}
 
-@media (min-width: 1000px) and (max-width: 1200px) {
+#main-tips-section h1{
+    font-family: Montserrat-Bold;
+}
+
+#main-tips-section li{
+    list-style-type: none;
+}
+
+#main-tips-left-section{
+    max-width: 50%;
+    padding: 0px 20px;
+}
+
+#main-tips-right-section{
+    text-align: right;
+}
+
+/*structures section*/
+#structures-tips-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 130px 130px 120px 120px;
+    font-family: Montserrat-Regular;
+}
+
+#structures-tips-section h1{
+    font-family: Montserrat-Bold;
+}
+
+#structures-tips-section li{
+    list-style-type: none;
+}
+
+#structures-tips-top-center-section {
+    text-align: right;
+}
+
+#structures-tips-bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#structures-tips-bottom-section h1 {
+    font-size: 16px;
+}
+
+/*education section*/
+#education-tips-section {
+    display: flex;
+    flex-direction: column;
+    background: #D9D9D9;
+    justify-content: center;
+    align-content: center;
+    padding: 130px 130px 120px 120px;
+}
+
+#education-tips-section h1{
+    font-family: Montserrat-Bold;
+}
+#education-tips-section p {
+    font-family: Montserrat-Regular;
+}
+
+#education-tips-top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#education-tips-top-left-section {
+    max-width: 50%;
+}
+#education-tips-top-right-section {
+    text-align: right;
+}
+
+#education-tips-center-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#education-tips-center-section h1{
+    text-align: center;
+}
+
+#education-tips-center-bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.education-tips-category-card {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFFFFF;
+    padding-bottom: 20px;
+    margin: 20px;
+    font-family: Montserrat-Bold;
+}
+.education-tips-category-card img {
+    position: relative;
+    top: -25px;
+    width: 20%;
+}
+
+/*material section*/
+#material-tips-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 130px 130px 120px 120px;
+}
+
+#material-tips-top-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#material-tips-top-section h1{
+    font-family: Montserrat-Bold;
+}
+
+#material-tips-top-section p {
+    font-family: Montserrat-Regular;
+}
+
+#material-tips-top-right-section img{
+    border-radius: 15px;
+    max-width: 600px;
+}
+
+#material-tips-object-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#material-tips-object-left-section img {
+    border-radius: 15px;
+    max-width: 600px;
+}
+#material-tips-object-right-section {
+    text-align: right;
+}
+#material-tips-object-right-section h1 {
+    font-family: Montserrat-Bold;
+}
+
+#material-tips-object-right-section p {
+    font-family: Montserrat-Regular;
+}
+
+/*!!!adaptive section!!!*/
+@media screen and (max-width: 1350px) {
     #welcome-right-section{
         display: none;
     }
@@ -341,6 +518,38 @@ i {
         justify-content: center;
         margin: 0;
         width: 100%;
+    }
+    #main-tips-section {
+        padding: 120px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #main-tips-left-section {
+        max-width: none;
+    }
+    #main-tips-right-section {
+        float: none;
+    }
+    #education-tips-section {
+        padding: 120px 10px;
+    }
+    #education-tips-top-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #education-tips-top-right-section {
+        text-align: center;
+    }
+    #material-tips-top-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    #material-tips-object-section {
+        flex-direction: column;
+        align-items: center;
     }
     .hamburger-menu-button {
         display: flex;
@@ -409,6 +618,15 @@ i {
     #logo-section img {
         width: 200px;
     }
+    #education-tips-top-left-section {
+        max-width: none;
+    }
+    #structures-tips-bottom-section {
+        flex-direction: column;
+    }
+    #structures-tips-section {
+        padding: 130px 20px;
+    }
     #welcome-text h1 {
         font-size: 20px;
     }
@@ -419,7 +637,12 @@ i {
     #welcome-left-section ul{
         padding: 0;
     }
-
+    #material-tips-top-right-section img {
+        max-width: 300px;
+    }
+    #material-tips-object-left-section img {
+        max-width: 300px;
+    }
     #gps-section {
         display: none;
     }
@@ -427,6 +650,7 @@ i {
     #welcome-section {
         padding: 130px 0px 120px 50px;
     }
+
 }
 
 @media screen and (max-width: 400px){
@@ -442,10 +666,36 @@ i {
     #welcome-section {
         padding: 130px 0px 120px 30px;
     }
+    #material-tips-top-right-section img {
+        max-width: 200px;
+    }
+    #material-tips-object-left-section img {
+        max-width: 200px;
+    }
+    .education-tips-category-card {
+        width: 200px;
+    }
+    #material-tips-top-section h1 {
+        font-size: 24px;
+    }
+    #material-tips-object-right-section h1 {
+        font-size: 24px;
+    }
 }
+
 
 @media screen and (min-width: 2000px){
     #header {
         justify-content: center;
+    }
+    #education-tips-top-section {
+        justify-content: center;
+        padding-left: 50px;
+    }
+    #structures-tips-top-center-section {
+        text-align:center;
+    }
+    #material-tips-section {
+        align-items: center;
     }
 }

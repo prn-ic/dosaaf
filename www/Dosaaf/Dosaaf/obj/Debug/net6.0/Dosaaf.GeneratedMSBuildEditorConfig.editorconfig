@@ -8,21 +8,25 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Dosaaf
 build_property.RootNamespace = Dosaaf
-build_property.ProjectDir = D:\zmqp project\Dosaaf\www\Dosaaf\Dosaaf\
+build_property.ProjectDir = D:\zmqp project\dosaaf\www\Dosaaf\Dosaaf\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\zmqp project\Dosaaf\www\Dosaaf\Dosaaf
+build_property.MSBuildProjectDirectory = D:\zmqp project\dosaaf\www\Dosaaf\Dosaaf
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/zmqp project/Dosaaf/www/Dosaaf/Dosaaf/Views/Home/Index.cshtml]
+[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zmqp project/Dosaaf/www/Dosaaf/Dosaaf/Views/Shared/Components/Header/Header.cshtml]
+[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/Home/Tips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaXBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/Shared/Components/Header/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVhZGVyXEhlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zmqp project/Dosaaf/www/Dosaaf/Dosaaf/Views/Shared/_Layout.cshtml]
+[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -8,11 +8,12 @@ namespace Dosaaf.Components
         {
             Dictionary<string, string> pairsOfPages = new Dictionary<string, string>
             {
-                { "Home", "Главная" },
+                { "/", "Главная" },
                 { "Tips", "Сведения" },
                 { "Price", "Цены" },
                 { "Contacts", "Контакты" },
-                { "OnlineEducation", "Онлайн обучение" }
+                { "OnlineEducation", "Онлайн обучение" },
+                { "FeedBack", "Отзывы" }
             };
 
 

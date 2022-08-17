@@ -22,5 +22,13 @@
     <div id="footer">
         @await Component.InvokeAsync("Header")
     </div>
+    <script>
+    let button = document.querySelector(".hamburger-menu-button");
+    let menu = document.querySelector(".hamburger-menu");
+
+    button.addEventListener('click', function () {
+    menu.classList.toggle('active');
+    })
+</script>
 </body>
 </html>

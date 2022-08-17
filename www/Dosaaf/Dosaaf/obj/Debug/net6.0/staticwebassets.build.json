@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b/rZLSOFUdD3FWVDYKdamvu9AUb5p/MwE4G44ENhKsY=",
+  "Hash": "E08VDp89CW9TP0gEn+4+Ikj3bEpO7wofRAn3qAQQ3q0=",
   "Source": "Dosaaf",
   "BasePath": "_content/Dosaaf",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Dosaaf\\wwwroot",
       "Source": "Dosaaf",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\css\\fonts.css",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\css\\fonts.css",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/css/fonts.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\static\\css\\fonts.css"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\css\\styles.css",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\css\\styles.css",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/css/styles.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\static\\css\\styles.css"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\font\\Montserrat-Bold.ttf",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\font\\Montserrat-Bold.ttf",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/font/Montserrat-Bold.ttf",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\static\\font\\Montserrat-Bold.ttf"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\font\\Montserrat-Light.ttf",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\font\\Montserrat-Light.ttf",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/font/Montserrat-Light.ttf",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\static\\font\\Montserrat-Light.ttf"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\font\\Montserrat-Regular.ttf",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\font\\Montserrat-Regular.ttf",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/font/Montserrat-Regular.ttf",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\static\\font\\Montserrat-Regular.ttf"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\atv.png",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\atv.png",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Icons/atv.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\static\\Icons\\atv.png"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\car (1).png",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\car (1).png",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Icons/car (1).png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\static\\Icons\\car (1).png"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\car.png",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\car.png",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Icons/car.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\static\\Icons\\car.png"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\favicon.ico",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\favicon.ico",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Icons/favicon.ico",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\static\\Icons\\favicon.ico"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\logo.png",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\logo.png",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Icons/logo.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\static\\Icons\\logo.png"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\logo.svg",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\logo.svg",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Icons/logo.svg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\static\\Icons\\logo.svg"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\more.png",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\more.png",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Icons/more.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\static\\Icons\\more.png"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\motorbike.png",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\motorbike.png",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Icons/motorbike.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\static\\Icons\\motorbike.png"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\trailer.png",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\trailer.png",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Icons/trailer.png",
       "AssetKind": "All",
@@ -255,10 +255,27 @@
       "OriginalItemSpec": "wwwroot\\static\\Icons\\trailer.png"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\bced0c36f94663438476273c3f8aae4a.jpg",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\autopark.jpg",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "BasePath": "_content/Dosaaf",
+      "RelativePath": "static/Images/autopark.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\static\\Images\\autopark.jpg"
+    },
+    {
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\bced0c36f94663438476273c3f8aae4a.jpg",
+      "SourceId": "Dosaaf",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Images/bced0c36f94663438476273c3f8aae4a.jpg",
       "AssetKind": "All",
@@ -272,10 +289,27 @@
       "OriginalItemSpec": "wwwroot\\static\\Images\\bced0c36f94663438476273c3f8aae4a.jpg"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\pngwing.com (1).png",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\cabinet.jpg",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "BasePath": "_content/Dosaaf",
+      "RelativePath": "static/Images/cabinet.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\static\\Images\\cabinet.jpg"
+    },
+    {
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\pngwing.com (1).png",
+      "SourceId": "Dosaaf",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Images/pngwing.com (1).png",
       "AssetKind": "All",
@@ -289,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\static\\Images\\pngwing.com (1).png"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\pngwing.com.png",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\pngwing.com.png",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/Images/pngwing.com.png",
       "AssetKind": "All",
@@ -306,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\static\\Images\\pngwing.com.png"
     },
     {
-      "Identity": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\js\\script.js",
+      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\js\\script.js",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
+      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
       "BasePath": "_content/Dosaaf",
       "RelativePath": "static/js/script.js",
       "AssetKind": "All",
