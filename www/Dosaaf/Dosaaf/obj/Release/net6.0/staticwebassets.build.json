@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "988/3nn4Oi9ZPAL4Dj49cLw2oSDCKScWCiJjAIaS1/I=",
+  "Hash": "E08VDp89CW9TP0gEn+4+Ikj3bEpO7wofRAn3qAQQ3q0=",
   "Source": "Dosaaf",
   "BasePath": "_content/Dosaaf",
   "Mode": "Default",
@@ -119,23 +119,6 @@
       "OriginalItemSpec": "wwwroot\\static\\Icons\\atv.png"
     },
     {
-      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\bus.png",
-      "SourceId": "Dosaaf",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
-      "BasePath": "_content/Dosaaf",
-      "RelativePath": "static/Icons/bus.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\Icons\\bus.png"
-    },
-    {
       "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\car (1).png",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
@@ -168,23 +151,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\static\\Icons\\car.png"
-    },
-    {
-      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\delivery-truck.png",
-      "SourceId": "Dosaaf",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
-      "BasePath": "_content/Dosaaf",
-      "RelativePath": "static/Icons/delivery-truck.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\Icons\\delivery-truck.png"
     },
     {
       "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\favicon.ico",
@@ -340,23 +306,6 @@
       "OriginalItemSpec": "wwwroot\\static\\Images\\cabinet.jpg"
     },
     {
-      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\car-loan.png",
-      "SourceId": "Dosaaf",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
-      "BasePath": "_content/Dosaaf",
-      "RelativePath": "static/Images/car-loan.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\Images\\car-loan.png"
-    },
-    {
       "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\pngwing.com (1).png",
       "SourceId": "Dosaaf",
       "SourceType": "Discovered",
@@ -389,23 +338,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\static\\Images\\pngwing.com.png"
-    },
-    {
-      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Images\\steering-wheel.png",
-      "SourceId": "Dosaaf",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
-      "BasePath": "_content/Dosaaf",
-      "RelativePath": "static/Images/steering-wheel.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\Images\\steering-wheel.png"
     },
     {
       "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\js\\script.js",

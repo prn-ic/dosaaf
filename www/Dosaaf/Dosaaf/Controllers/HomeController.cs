@@ -12,5 +12,13 @@ namespace Dosaaf.Controllers
         {
             return View();
         }
+        public IActionResult Price()
+        {
+            return View();
+        }
+        public IActionResult Contacts()
+        {
+            return View();
+        }
     }
 }

@@ -15,16 +15,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\zmqp project\dosaaf\www\Dosaaf\Dosaaf
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/Home/Contacts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/Home/Price.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/Home/Tips.cshtml]
