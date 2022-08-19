@@ -19,12 +19,15 @@
             <li><i class="fa-solid fa-caret-right"></i>Квалифицированные инструктора</li>
             <li><i class="fa-solid fa-caret-right"></i>Качественные автомобили</li>
         </ul>
-        <button id="send-button">Оставить заявку</button>
+        <form asp-controller="Home" asp-action="RecordEducation">
+            <button id="send-button">Оставить заявку</button>
+        </form>
+
     </div>
     <div id="welcome-right-section">
-        <img src="~/static/Images/pngwing.com.png"/>
+        <img src="~/static/Images/pngwing.com.png" />
     </div>
-    
+
 </div>
 <div id="education-package-section">
     <div id="education-package-text">
@@ -32,7 +35,7 @@
         <h3>Стоимость каждого пакета соответствует указанной категории (без учета медкомиссии и прочего)</h3>
     </div>
     <div id="education-category-cards-list">
-            <div class="education-category-card">
+        <div class="education-category-card">
             <img src="~/static/Icons/atv.png" />
             <h1>Категория "М"</h1>
             <ul>
@@ -44,7 +47,9 @@
                 <h2>8000 рублей</h2>
                 <h2 class="count-education">1 месяц</h2>
             </div>
-            <button class="take-button">Записаться</button>
+            <form asp-controller="Home" asp-action="RecordEducation">
+                <button class="take-button">Записаться</button>
+            </form>
         </div>
         <div class="education-category-card">
             <img src="~/static/Icons/motorbike.png" />
@@ -58,7 +63,9 @@
                 <h2>10000 рублей</h2>
                 <h2 class="count-education">1,5 месяца</h2>
             </div>
-            <button class="take-button">Записаться</button>
+            <form asp-controller="Home" asp-action="RecordEducation">
+                <button class="take-button">Записаться</button>
+            </form>
         </div>
         <div class="education-category-card">
             <img src="~/static/Icons/car (1).png" />
@@ -72,7 +79,9 @@
                 <h2>35000 рублей</h2>
                 <h2 class="count-education">3 месяца</h2>
             </div>
-            <button class="take-button">Записаться</button>
+            <form asp-controller="Home" asp-action="RecordEducation">
+                <button class="take-button">Записаться</button>
+            </form>
         </div>
         <div class="education-category-card">
             <img src="~/static/Icons/trailer.png" />
@@ -86,26 +95,34 @@
                 <h2>18000 рублей</h2>
                 <h2 class="count-education">1 месяц</h2>
             </div>
-            <button class="take-button">Записаться</button>
+            <form asp-controller="Home" asp-action="RecordEducation">
+                <button class="take-button">Записаться</button>
+            </form>
         </div>
     </div>
     <h1 id="and-other">...и прочее</h1>
-    <button class="take-button">Подробнее</button>
+    <form asp-controller="Home" asp-action="Price">
+        <button class="take-button">Оставить заявку</button>
+    </form>
 </div>
 <div id="about-us-section">
     <div id="about-us-left-section">
-        <img src="~/static/Images/pngwing.com (1).png"/>
+        <img src="~/static/Images/pngwing.com (1).png" />
     </div>
     <div id="about-us-right-section">
         <h1>О автошколе</h1>
-        <p>Учебный Центр Гайского ДОСААФ – это профессиональная образовательная организация, занимающаяся профессиональной подготовкой водителей транспортных средств категорий «В»,  «А» , «М»,  «СЕ», а также переподготовкой водителей транспортных средств с категории «В» на категорию «С», с категории «С» на категорию «В», с категории «С» на категорию «D».
-Наша организация имеет Лицензию: серии 56Л01 №0004633, регистрационный № 2795, выданная Министерством образования Оренбургской области, на право оказывать образовательные услуги по реализации образовательных программ.</p>
+        <p>
+            Учебный Центр Гайского ДОСААФ – это профессиональная образовательная организация, занимающаяся профессиональной подготовкой водителей транспортных средств категорий «В»,  «А» , «М»,  «СЕ», а также переподготовкой водителей транспортных средств с категории «В» на категорию «С», с категории «С» на категорию «В», с категории «С» на категорию «D».
+            Наша организация имеет Лицензию: серии 56Л01 №0004633, регистрационный № 2795, выданная Министерством образования Оренбургской области, на право оказывать образовательные услуги по реализации образовательных программ.
+        </p>
     </div>
 </div>
 <div id="online-education-section">
     <h1>Онлайн обучение</h1>
-    <p>В нашей автошколе также присутствует онлайн-обучение<br/>Чтобы записаться, нажмите кнопку ниже</p>
-    <button class="take-button">Оставить заявку</button>
+    <p>В нашей автошколе также присутствует онлайн-обучение<br />Чтобы записаться, нажмите кнопку ниже</p>
+    <form asp-controller="Home" asp-action="OnlineEducation">
+        <button class="take-button">Оставить заявку</button>
+    </form>
 </div>
 <div id="our-autoschool-section">
     <h1>Контакты</h1>
@@ -126,7 +143,7 @@
     // Функция ymaps.ready() будет вызвана, когда
     // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
     ymaps.ready(init);
-    function init(){
+    function init() {
         // Создание карты.
         var myMap = new ymaps.Map("gps-section", {
             // Координаты центра карты.
@@ -142,7 +159,7 @@
         var myPlacemarkWithContent = new ymaps.Placemark([51.468475, 58.439874], {
             hintContent: 'Автошкола Досааф'
         });
-        
+
         myMap.geoObjects.add(myPlacemarkWithContent);
     }
 </script>

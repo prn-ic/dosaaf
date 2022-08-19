@@ -230,6 +230,10 @@ i {
     font-family: Montserrat-Bold;
     color: #FFFFFF;
 }
+.take-button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .take-button:hover {
     cursor: pointer;
     transition: 0.3s;
@@ -603,6 +607,111 @@ i {
 #contacts-section h1{
     font-size: 32px;
 }
+
+/*online education section*/
+#online-education-main-section {
+    display: flex;
+    flex-direction: column;
+}
+#online-page-education-section h1{
+    font-family: Montserrat-Bold;
+}
+#online-page-education-section p {
+    font-family: Montserrat-Regular;
+}
+
+#online-page-education-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #D9D9D9;
+    padding: 130px 130px 120px 120px;
+}
+#online-education-left-section img{
+    max-width: 90%;
+}
+.send-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding: 50px 50px;
+}
+
+.send-form img {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 70px;
+}
+
+.send-form h1{
+    text-align: center;
+}
+
+.send-form label {
+    font-family: Montserrat-Regular;
+}
+.application-point {
+    display: flex;
+    flex-direction: column;
+}
+.application-point input{
+    font-family: Montserrat-Regular;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.application-point select{
+    font-family: Montserrat-Regular;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.submit-changes {
+    border: none;
+    border-radius: 15px;
+    background: #DE2339;
+    padding: 50px 35px;
+    min-height: 50px;
+    margin-top: 30px;
+    font-family: Montserrat-Bold;
+    color: #FFFFFF;
+}
+
+/*record education section*/
+#record-education-main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#record-education-section h1 {
+    font-family: Montserrat-Bold;
+}
+
+#record-education-section p {
+    font-family: Montserrat-Regular;
+}
+
+#record-education-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #D9D9D9;
+    padding: 130px 130px 120px 120px;
+}
+
+#record-education-right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#record-education-right-section img {
+    max-width: 90%;
+}
+
 /*!!!adaptive section!!!*/
 @media screen and (max-width: 1350px) {
     #welcome-right-section{
@@ -719,9 +828,31 @@ i {
     #footer{
         display: none;
     }
+    #online-education-left-section img {
+        display: none;
+    }
+    #online-page-education-section {
+        flex-direction: column;
+    }
+    #record-education-right-section img {
+        display: none;
+    }
+
+    #record-education-section {
+        flex-direction: column;
+    }
+    #record-education-right-section {
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 750px){
+    #online-education-section {
+        padding: 130px 20px 120px 20px;
+    }
+    #record-education-section {
+        padding: 130px 20px 120px 20px;
+    }
     #price-welcome-section {
         padding: 130px 20px 120px 20px;
     }
@@ -814,8 +945,31 @@ i {
     }
 }
 
+@media screen and (max-width: 350px){
+    .send-form {
+        padding: 5px 5px;
+    }
+    #online-page-education-section h1 {
+        font-size: 20px;
+    }
+    #record-education-section h1 {
+        font-size: 20px;
+    }
+    .send-form label {
+        margin: 0px 10px;
+        font-size: 14px;
+    }
+    .application-point input {
+        margin: 0px 10px;
+    }
+    .application-point select {
+        margin: 10px 10px;
+    }
+}
+
 
 @media screen and (min-width: 2000px){
+
     #header {
         justify-content: center;
     }
@@ -834,6 +988,12 @@ i {
     }
     #price-welcome-left-section {
         padding-right: 50px;
+    }
+    #online-page-education-section {
+        justify-content: center;
+    }
+    #record-education-section {
+        justify-content: center;
     }
 }
 
