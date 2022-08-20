@@ -42,5 +42,9 @@ namespace Dosaaf.Controllers
             ViewBag.Categories = new SelectList(categories, "Name", "Name");
             return View();
         }
+        public IActionResult Feedback()
+        {
+            return View();
+        }
     }
 }

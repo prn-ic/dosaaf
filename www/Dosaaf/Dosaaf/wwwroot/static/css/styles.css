@@ -712,6 +712,82 @@ i {
     max-width: 90%;
 }
 
+/*review section*/
+#review-main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#review-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #D9D9D9;
+    padding: 130px 130px 120px 120px;
+}
+#review-section h1 {
+    text-align: center;
+    font-family: Montserrat-Bold;
+}
+
+#review-block-section {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 5px 20px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.review {
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 10px;
+}
+
+.reviewer-data-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.reviewer-data-section h3{
+    font-family: Montserrat-Bold;
+}
+.reviewer-data-section p {
+    font-family: Montserrat-Regular;
+    color: #A9A9A9;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.reviewer-message-section p {
+    font-family: Montserrat-Regular;
+}
+
+#send-review-main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    padding: 50px 130px 120px 120px;
+}
+
+#send-review-main-section h1{
+    font-family: Montserrat-Bold;
+    text-align: center;
+}
+
+#send-review-main-section .send-form {
+    background: #D9D9D9;
+    min-width: 500px;
+}
+
+#send-review-main-section .send-form textarea {
+    font-family: Montserrat-Regular;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
 /*!!!adaptive section!!!*/
 @media screen and (max-width: 1350px) {
     #welcome-right-section{
@@ -850,8 +926,14 @@ i {
     #online-education-section {
         padding: 130px 20px 120px 20px;
     }
+    #review-section{
+        padding: 130px 20px 120px 20px;
+    }
     #record-education-section {
         padding: 130px 20px 120px 20px;
+    }
+    #send-review-main-section .send-form {
+        min-width: unset;
     }
     #price-welcome-section {
         padding: 130px 20px 120px 20px;

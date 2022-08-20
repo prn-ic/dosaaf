@@ -13,7 +13,7 @@ namespace Dosaaf.Components
                 { "Price", "Цены" },
                 { "Contacts", "Контакты" },
                 { "OnlineEducation", "Онлайн обучение" },
-                { "FeedBack", "Отзывы" }
+                { "Feedback", "Отзывы" }
             };
 
 

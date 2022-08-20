@@ -1,6 +1,6 @@
 ﻿namespace Dosaaf.Models
 {
-    public class OnlineEducationModel
+    public class EducationModel
     {
         public int Id { get; set; }
         public string? FirstName { get; set; }
