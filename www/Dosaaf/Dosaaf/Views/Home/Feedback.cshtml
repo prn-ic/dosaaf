@@ -11,50 +11,38 @@
     <div id="review-section">
         <h1>Отзывы</h1>
         <div id="review-block-section">
-            <div class="review">
-                <div class="reviewer-data-section">
-                    <h3>Zmqp</h3>
-                    <p>20.08.2022</p>
+            @foreach (var review in ViewBag.Reviews)
+            {
+                <div class="review">
+                    <div class="reviewer-data-section">
+                        <h3>@review.Name</h3>
+                        <p>@review.TimeCreated</p>
+                    </div>
+                    <div class="reviewer-message-section">
+                        <p>@review.Message</p>
+                    </div>
                 </div>
-                <div class="reviewer-message-section">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
-            </div>
-            <div class="review">
-                <div class="reviewer-data-section">
-                    <h3>Zmqp</h3>
-                    <p>20.08.2022</p>
-                </div>
-                <div class="reviewer-message-section">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
-            </div>
-            <div class="review">
-                <div class="reviewer-data-section">
-                    <h3>Zmqp</h3>
-                    <p>20.08.2022</p>
-                </div>
-                <div class="reviewer-message-section">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
-            </div>
+            }
         </div>
     </div>
     <div id="send-review-main-section">
                 <h1>Оставьте свой отзыв</h1>
-                <form class="send-form">
+                <form class="send-form" method="post" asp-action="Feedback">
                     <h1>Отзыв</h1>
                     <div class="application-point">
                         <label>Введите имя</label>
                         <input type="text" asp-for="Name" placeholder="Иван Иванов"/>
+                        <span asp-validation-for="Name"></span>
                     </div>
                     <div class="application-point">
                         <label>Введите email</label>
                         <input type="email" asp-for="Email" placeholder="gaidosaaf@mail.ru"/>
+                        <span asp-validation-for="Email"></span>
                     </div>
                     <div class="application-point">
                         <label>Введите сообщение</label>
                         <textarea asp-for="Message" rows="10"></textarea>
+                        <span asp-validation-for="Message"></span>
                     </div>
                     <div class="application-point">
                         <input class="submit-changes" type="submit" value="Отправить отзыв" />

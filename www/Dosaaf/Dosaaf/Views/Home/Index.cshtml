@@ -10,7 +10,7 @@
     <div id="welcome-left-section">
         <div id="welcome-text">
             <h1>Получи права за 3 месяца</h1>
-            <h1 id="welcome-red-text">в автошколе Досааф</h1>
+            <h1 id="welcome-red-text">в автошколе ДОСААФ</h1>
         </div>
         <p>У нас есть:</p>
         <ul>
@@ -19,7 +19,7 @@
             <li><i class="fa-solid fa-caret-right"></i>Квалифицированные инструктора</li>
             <li><i class="fa-solid fa-caret-right"></i>Качественные автомобили</li>
         </ul>
-        <form asp-controller="Home" asp-action="RecordEducation">
+        <form asp-controller="Home" asp-action="RecordEducation" method="get">
             <button id="send-button">Оставить заявку</button>
         </form>
 
@@ -47,7 +47,7 @@
                 <h2>8000 рублей</h2>
                 <h2 class="count-education">1 месяц</h2>
             </div>
-            <form asp-controller="Home" asp-action="RecordEducation">
+            <form asp-controller="Home" asp-action="RecordEducation" method="get">
                 <button class="take-button">Записаться</button>
             </form>
         </div>
@@ -63,7 +63,7 @@
                 <h2>10000 рублей</h2>
                 <h2 class="count-education">1,5 месяца</h2>
             </div>
-            <form asp-controller="Home" asp-action="RecordEducation">
+            <form asp-controller="Home" asp-action="RecordEducation" method="get">
                 <button class="take-button">Записаться</button>
             </form>
         </div>
@@ -79,7 +79,7 @@
                 <h2>35000 рублей</h2>
                 <h2 class="count-education">3 месяца</h2>
             </div>
-            <form asp-controller="Home" asp-action="RecordEducation">
+            <form asp-controller="Home" asp-action="RecordEducation" method="get">
                 <button class="take-button">Записаться</button>
             </form>
         </div>
@@ -95,14 +95,14 @@
                 <h2>18000 рублей</h2>
                 <h2 class="count-education">1 месяц</h2>
             </div>
-            <form asp-controller="Home" asp-action="RecordEducation">
+            <form asp-controller="Home" asp-action="RecordEducation" method="get">
                 <button class="take-button">Записаться</button>
             </form>
         </div>
     </div>
     <h1 id="and-other">...и прочее</h1>
-    <form asp-controller="Home" asp-action="Price">
-        <button class="take-button">Оставить заявку</button>
+    <form asp-controller="Home" asp-action="Price" method="get">
+        <button class="take-button">Подробнее</button>
     </form>
 </div>
 <div id="about-us-section">
@@ -120,7 +120,7 @@
 <div id="online-education-section">
     <h1>Онлайн обучение</h1>
     <p>В нашей автошколе также присутствует онлайн-обучение<br />Чтобы записаться, нажмите кнопку ниже</p>
-    <form asp-controller="Home" asp-action="OnlineEducation">
+    <form asp-controller="Home" asp-action="OnlineEducation" method="get">
         <button class="take-button">Оставить заявку</button>
     </form>
 </div>

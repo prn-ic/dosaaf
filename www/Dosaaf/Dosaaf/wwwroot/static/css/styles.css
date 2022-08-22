@@ -663,6 +663,11 @@ i {
     padding: 5px 10px;
 }
 
+.field-validation-error {
+    font-family: Montserrat-Regular;
+    color: #DE2339;
+}
+
 .application-point select{
     font-family: Montserrat-Regular;
     border-radius: 15px;
@@ -737,6 +742,7 @@ i {
     border-radius: 20px;
     padding: 5px 20px;
     overflow-y: auto;
+    min-height: 450px;
     max-height: 500px;
 }
 
@@ -787,6 +793,69 @@ i {
     font-family: Montserrat-Regular;
     border-radius: 15px;
     padding: 5px 10px;
+}
+
+/*
+    ADMINPANEL SECTION
+
+*/
+
+/*login section*/
+
+#admin-page-login h1{
+    font-family: Montserrat-Bold;
+}
+
+#admin-page-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 130px 120px 120px;
+}
+
+/*tables section*/
+#education-request-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px 130px 120px 120px;
+}
+#education-request-section h1 {
+    font-family: Montserrat-Bold;
+}
+#education-request-section {
+    font-family: Montserrat-Regular;
+}
+#table-overflow-section {
+    overflow-y: auto;
+    min-height: 250px;
+    max-height: 300px;
+}
+.table-section {
+    border: 1px solid black;
+    text-align: center;
+}
+.table-section th{
+    padding: 40px;
+}
+
+#education-online-request-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background: #D9D9D9;
+    padding: 130px 130px 120px 120px;
+}
+
+#education-online-request-section h1 {
+    font-family: Montserrat-Bold;
+}
+
+#education-online-request-section {
+    font-family: Montserrat-Regular;
 }
 /*!!!adaptive section!!!*/
 @media screen and (max-width: 1350px) {

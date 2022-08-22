@@ -1,0 +1,10 @@
+﻿@{
+    Layout = "../Shared/_Layout.cshtml";
+    ViewBag.Title = "Админ панель";
+}
+
+<div id="management-section">
+    @await Component.InvokeAsync("ReviewPanel")
+    @await Component.InvokeAsync("Education")
+    @await Component.InvokeAsync("EducationOnline")
+</div>

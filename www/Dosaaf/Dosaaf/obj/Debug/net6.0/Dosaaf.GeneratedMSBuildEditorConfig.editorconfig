@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\zmqp project\dosaaf\www\Dosaaf\Dosaaf
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/AdminPanel/Components/EducationOnline/EducationOnline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxDb21wb25lbnRzXEVkdWNhdGlvbk9ubGluZVxFZHVjYXRpb25PbmxpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/AdminPanel/Components/Education/Education.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxDb21wb25lbnRzXEVkdWNhdGlvblxFZHVjYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/AdminPanel/Components/ReviewPanel/ReviewPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxDb21wb25lbnRzXFJldmlld1BhbmVsXFJldmlld1BhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/AdminPanel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/AdminPanel/Management.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxNYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/zmqp project/dosaaf/www/Dosaaf/Dosaaf/Views/Home/Contacts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

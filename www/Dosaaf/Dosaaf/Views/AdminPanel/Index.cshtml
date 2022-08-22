@@ -1,0 +1,25 @@
+﻿
+@addTagHelper *, Dosaaf
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "../Shared/_Layout.cshtml";
+    ViewBag.Title = "Админ панель. Логин";
+}
+@model Dosaaf.Models.Admin
+
+<div id="admin-page-login">
+    <h1>Админ панель</h1>
+    <form class="send-form" method="post" asp-action="Login" asp-controller="AdminPanel">
+        <div class="application-point">
+            <label>Login</label>
+            <input type="text" asp-for="Name" />
+        </div>
+        <div class="application-point">
+            <label>Password</label>
+            <input type="password" asp-for="Password" />
+        </div>
+        <div class="application-point">
+            <input class="submit-changes" type="submit" value="Login" />
+        </div>
+    </form>
+</div>

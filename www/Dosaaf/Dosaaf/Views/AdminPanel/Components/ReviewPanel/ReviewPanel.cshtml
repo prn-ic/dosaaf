@@ -1,0 +1,27 @@
+﻿@addTagHelper *, Dosaaf
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model IEnumerable<Dosaaf.Models.Review>
+<div id="review-main-section">
+    <div id="review-section">
+        <h1>Отзывы</h1>
+        <div id="review-block-section">
+            @foreach (var review in Model)
+            {
+                <div class="review">
+                    <div class="reviewer-data-section">
+                        <h3>@review.Name</h3>
+                        <p>@review.TimeCreated</p>
+                    </div>
+                    <div class="reviewer-message-section">
+                        <p>@review.Message</p>
+                    </div>
+                    <form method="post" asp-controller="AdminPanel" asp-action="DeleteReview">
+                        <input type="hidden" value="@review.Id" name="Id"/>
+                        <input type="submit" value="Удалить запись" class="submit-changes" style="padding: 0px 10px; font-size: 10px; margin: 0;"/>
+                    </form>
+                </div>
+            }
+        </div>
+    </div>
+</div>

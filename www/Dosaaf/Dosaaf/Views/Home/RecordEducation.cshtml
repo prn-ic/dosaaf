@@ -11,24 +11,28 @@
     <div id="record-education-section">
 
         <div id="record-education-left-section">
-            <form class="send-form" method="post">
+            <form class="send-form" method="post" asp-action="RecordEducation">
                 <img src="~/static/Images/car-loan.png" />
                 <h1>Заявка на обучение</h1>
                 <div class="application-point">
                     <label>Введите имя</label>
                     <input type="text" asp-for="FirstName" placeholder="Иван"/>
+                    <span asp-validation-for="FirstName"></span>
                 </div>
                 <div class="application-point">
                     <label>Введите фамилию</label>
                     <input type="text" asp-for="LastName" placeholder="Иванов"/>
+                    <span asp-validation-for="LastName"></span>
                 </div>
                 <div class="application-point">
                     <label>Введите номер телефона</label>
                     <input type="text" asp-for="Phone" placeholder="83526242344"/>
+                    <span asp-validation-for="Phone"></span>
                 </div>
                 <div class="application-point">
                     <label>Введите E-mail</label>
                     <input type="email" asp-for="Email" placeholder="gaidosaaf@mail.ru"/>
+                    <span asp-validation-for="Email"></span>
                 </div>
                 <div class="application-point">
                     <label>Выберите категорию</label>

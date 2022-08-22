@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Dosaaf.Models.EducationModel>
+<div id="education-request-section">
+    <h1>Заявки на очное обучение</h1>
+    <div id="table-overflow-section">
+        <table class="table-section">
+        <tr>
+            <th>ID Заявки</th>
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Телефон</th>
+            <th>E-mail</th>
+            <th>Категория</th>
+            <th>Дата заявки</th>
+        </tr>
+        @foreach (var request in Model)
+            {
+                <tr>
+                    <td>@request.Id</td>
+                    <td>@request.FirstName</td>
+                    <td>@request.LastName</td>
+                    <td>@request.Phone</td>
+                    <td>@request.Email</td>
+                    <td>@request.Category</td>
+                    <td>@request.TimeCreated</td>
+                </tr>
+            }
+    </table>
+    </div>
+</div>
