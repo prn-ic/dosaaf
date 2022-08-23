@@ -12,6 +12,8 @@ builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlite(c
 
 builder.Services.AddTransient<IDecoder, Decoder>();
 
+builder.Services.AddTransient<IEmailService, EmailService>();
+
 var app = builder.Build();
 
 app.UseStaticFiles();

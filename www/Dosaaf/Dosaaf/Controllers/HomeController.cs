@@ -9,6 +9,7 @@ namespace Dosaaf.Controllers
     {
         private readonly ApplicationContext _db;
         private readonly ILogger<HomeController> _logger;
+        private readonly IEmailService _emailService;
         public record Category(int Id, string Name);
         IEnumerable<Category> categories = new List<Category> {
             new Category (1, "Категория А"),
@@ -20,10 +21,11 @@ namespace Dosaaf.Controllers
             new Category (7, "Теоретический минимум")
             
         };
-        public HomeController(ApplicationContext db, ILogger<HomeController> logger)
+        public HomeController(ApplicationContext db, ILogger<HomeController> logger, IEmailService emailService)
         {
             _db = db;
             _logger = logger;
+            _emailService = emailService;
         }
 
         public IActionResult Index()
@@ -53,7 +55,10 @@ namespace Dosaaf.Controllers
             onlineEducationModel.TimeCreated = DateTime.Now;
             _db.OnlineEducations.Add(onlineEducationModel);
             _db.SaveChanges();
-            return Redirect("OnlineEducation");
+
+            _emailService.SendEmail(onlineEducationModel.Email!);
+
+            return Redirect("Thanks");
         }
         [HttpPost]
         public IActionResult RecordEducation(EducationModel educationModel)
@@ -61,7 +66,10 @@ namespace Dosaaf.Controllers
             educationModel.TimeCreated = DateTime.Now;
             _db.Educations.Add(educationModel);
             _db.SaveChanges();
-            return Redirect("/");
+
+            _emailService.SendEmail(educationModel.Email!);
+
+            return Redirect("Thanks");
         }
         public IActionResult RecordEducation()
         {
@@ -83,6 +91,11 @@ namespace Dosaaf.Controllers
             _db.Reviews.Add(review);
             _db.SaveChanges();
             return Redirect("Feedback");
+        }
+
+        public IActionResult Thanks()
+        {
+            return View();
         }
     }
 }
