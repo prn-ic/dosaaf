@@ -841,6 +841,13 @@ i {
     padding: 40px;
 }
 
+.table-section-td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
 #education-online-request-section {
     display: flex;
     justify-content: space-between;

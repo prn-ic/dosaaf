@@ -3,25 +3,25 @@
     <h1>Заявки на онлайн обучение</h1>
     <div id="table-overflow-section">
         <table class="table-section">
-        <tr>
-            <th>ID Заявки</th>
-            <th>Имя</th>
-            <th>Фамилия</th>
-            <th>Телефон</th>
-            <th>E-mail</th>
-            <th>Категория</th>
-            <th>Дата заявки</th>
-        </tr>
+            <tr>
+                <th>ID Заявки</th>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Телефон</th>
+                <th>E-mail</th>
+                <th>Категория</th>
+                <th>Дата заявки</th>
+            </tr>
             @foreach (var request in Model)
             {
                 <tr>
-                    <td>@request.Id</td>
-                    <td>@request.FirstName</td>
-                    <td>@request.LastName</td>
-                    <td>@request.Phone</td>
-                    <td>@request.Email</td>
-                    <td>@request.Category</td>
-                    <td>@request.TimeCreated</td>
+                    <td class="table-section-td">@request.Id</td>
+                    <td class="table-section-td">@request.FirstName</td>
+                    <td class="table-section-td">@request.LastName</td>
+                    <td class="table-section-td">@request.Phone</td>
+                    <td class="table-section-td">@request.Email</td>
+                    <td class="table-section-td">@request.Category</td>
+                    <td class="table-section-td">@request.TimeCreated</td>
                 </tr>
             }
         </table>
