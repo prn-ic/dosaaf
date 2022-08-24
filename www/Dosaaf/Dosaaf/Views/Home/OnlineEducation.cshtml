@@ -1,18 +1,18 @@
 ﻿@addTagHelper *, Dosaaf
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@model Dosaaf.Models.OnlineEducationModel
+@model Dosaaf.Models.OnlineEducation
 
 @{
-    ViewBag.Title = "Онлайн обучение";
+    ViewBag.Title = "- Онлайн обучение";
     Layout = "../Shared/_Layout.cshtml";
 }
 
 <div id="online-education-main-section">
     <div id="online-page-education-section">
         <div id="online-education-left-section">
-             <h1>Онлайн обучение</h1>
+            <h1>Онлайн обучение</h1>
             <p>Заполнив данную форму, вы можете записаться на онлайн обучение. <br />Оставьте заявку и мы сообщим вам о онлайн обучении</p>
-            <img src="~/static/Images/pngwing.com (1).png"/>
+            <img src="~/static/Images/pngwing.com (1).png" />
         </div>
         <div id="online-education-right-section">
             <form class="send-form" method="post" asp-action="OnlineEducation">
@@ -20,22 +20,22 @@
                 <h1>Заявка на онлайн обучение</h1>
                 <div class="application-point">
                     <label>Введите имя</label>
-                    <input type="text" asp-for="FirstName" placeholder="Иван"/>
+                    <input type="text" asp-for="FirstName" placeholder="Иван" />
                     <span asp-validation-for="FirstName"></span>
                 </div>
                 <div class="application-point">
                     <label>Введите фамилию</label>
-                    <input type="text" asp-for="LastName" placeholder="Иванов"/>
+                    <input type="text" asp-for="LastName" placeholder="Иванов" />
                     <span asp-validation-for="LastName"></span>
                 </div>
                 <div class="application-point">
                     <label>Введите номер телефона</label>
-                    <input type="text" asp-for="Phone" placeholder="83526242344"/>
+                    <input type="text" asp-for="Phone" placeholder="83526242344" />
                     <span asp-validation-for="Phone"></span>
                 </div>
                 <div class="application-point">
                     <label>Введите E-mail</label>
-                    <input type="email" asp-for="Email" placeholder="gaidosaaf@mail.ru"/>
+                    <input type="email" asp-for="Email" placeholder="gaidosaaf@mail.ru" />
                     <span asp-validation-for="Email"></span>
                 </div>
                 <div class="application-point">

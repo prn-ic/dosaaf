@@ -1,6 +1,6 @@
 ﻿namespace Dosaaf.Services
 {
-    public class Decoder: IDecoder
+    public class EncryptionService: IEncryptionService
     {
         public string Base64Encode(string text = "unknown")
         {

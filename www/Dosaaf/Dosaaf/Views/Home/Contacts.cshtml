@@ -2,48 +2,48 @@
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
-    ViewBag.Title = "Контакты";
+    ViewBag.Title = "- Контакты";
     Layout = "../Shared/_Layout.cshtml";
 }
 
 <div id="contacts-section">
     <div id="our-autoschool-section">
-    <h1>Контакты</h1>
-    <div id="our-autoschool-card-section">
-        <div id="gps-section">
-        </div>
-        <div id="points-section">
-            <ul>
-                <li><i class="fa-solid fa-location-dot"></i>г.Гай, ул. Молодежная, д 4А</li>
-                <li><i class="fa-solid fa-square-phone"></i>+ 7 352-624-23-44</li>
-                <li><i class="fa-solid fa-briefcase"></i>Пн-Пт с 8:00 до 17:00</li>
-                <li><i class="fa-solid fa-at"></i>gaidosaaf@mail.ru</li>
-            </ul>
+        <h1>Контакты</h1>
+        <div id="our-autoschool-card-section">
+            <div id="gps-section">
+            </div>
+            <div id="points-section">
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>г.Гай, ул. Молодежная, д 4А</li>
+                    <li><i class="fa-solid fa-square-phone"></i>+ 7 352-624-23-44</li>
+                    <li><i class="fa-solid fa-briefcase"></i>Пн-Пт с 8:00 до 17:00</li>
+                    <li><i class="fa-solid fa-at"></i>gaidosaaf@mail.ru</li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
-<script type="text/javascript">
-    // Функция ymaps.ready() будет вызвана, когда
-    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
-    ymaps.ready(init);
-    function init(){
-        // Создание карты.
-        var myMap = new ymaps.Map("gps-section", {
-            // Координаты центра карты.
-            // Порядок по умолчанию: «широта, долгота».
-            // Чтобы не определять координаты центра карты вручную,
-            // воспользуйтесь инструментом Определение координат.
-            center: [51.468475, 58.439874],
-            // Уровень масштабирования. Допустимые значения:
-            // от 0 (весь мир) до 19.
-            zoom: 16
-        });
+    <script type="text/javascript">
+        // Функция ymaps.ready() будет вызвана, когда
+        // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+        ymaps.ready(init);
+        function init() {
+            // Создание карты.
+            var myMap = new ymaps.Map("gps-section", {
+                // Координаты центра карты.
+                // Порядок по умолчанию: «широта, долгота».
+                // Чтобы не определять координаты центра карты вручную,
+                // воспользуйтесь инструментом Определение координат.
+                center: [51.468475, 58.439874],
+                // Уровень масштабирования. Допустимые значения:
+                // от 0 (весь мир) до 19.
+                zoom: 16
+            });
 
-        var myPlacemarkWithContent = new ymaps.Placemark([51.468475, 58.439874], {
-            hintContent: 'Автошкола Досааф'
-        });
-        
-        myMap.geoObjects.add(myPlacemarkWithContent);
-    }
-</script>
+            var myPlacemarkWithContent = new ymaps.Placemark([51.468475, 58.439874], {
+                hintContent: 'Автошкола Досааф'
+            });
+
+            myMap.geoObjects.add(myPlacemarkWithContent);
+        }
+    </script>
 </div>

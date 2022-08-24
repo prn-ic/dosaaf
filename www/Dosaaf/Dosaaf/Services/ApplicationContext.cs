@@ -6,8 +6,8 @@ namespace Dosaaf.Services
     public class ApplicationContext: DbContext
     {
         public DbSet<Admin> Admins { get; set; } = null!;
-        public DbSet<EducationModel> Educations { get; set; } = null!;
-        public DbSet<OnlineEducationModel> OnlineEducations { get; set; } = null!;
+        public DbSet<Education> Educations { get; set; } = null!;
+        public DbSet<OnlineEducation> OnlineEducations { get; set; } = null!;
         public DbSet<Review> Reviews { get; set; } = null!;
         public ApplicationContext(DbContextOptions<ApplicationContext> options): base(options)
         {

@@ -4,7 +4,7 @@
 
 @{
     Layout = "../Shared/_Layout.cshtml";
-    ViewBag.Title = "Отзывы";
+    ViewBag.Title = "- Отзывы";
 }
 
 <div id="review-main-section">
@@ -26,27 +26,27 @@
         </div>
     </div>
     <div id="send-review-main-section">
-                <h1>Оставьте свой отзыв</h1>
-                <form class="send-form" method="post" asp-action="Feedback">
-                    <h1>Отзыв</h1>
-                    <div class="application-point">
-                        <label>Введите имя</label>
-                        <input type="text" asp-for="Name" placeholder="Иван Иванов"/>
-                        <span asp-validation-for="Name"></span>
-                    </div>
-                    <div class="application-point">
-                        <label>Введите email</label>
-                        <input type="email" asp-for="Email" placeholder="gaidosaaf@mail.ru"/>
-                        <span asp-validation-for="Email"></span>
-                    </div>
-                    <div class="application-point">
-                        <label>Введите сообщение</label>
-                        <textarea asp-for="Message" rows="10"></textarea>
-                        <span asp-validation-for="Message"></span>
-                    </div>
-                    <div class="application-point">
-                        <input class="submit-changes" type="submit" value="Отправить отзыв" />
-                    </div>
-                </form>
+        <h1>Оставьте свой отзыв</h1>
+        <form class="send-form" method="post" asp-action="Feedback">
+            <h1>Отзыв</h1>
+            <div class="application-point">
+                <label>Введите имя</label>
+                <input type="text" asp-for="Name" placeholder="Иван Иванов" />
+                <span asp-validation-for="Name"></span>
             </div>
+            <div class="application-point">
+                <label>Введите email</label>
+                <input type="email" asp-for="Email" placeholder="gaidosaaf@mail.ru" />
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div class="application-point">
+                <label>Введите сообщение</label>
+                <textarea asp-for="Message" rows="10"></textarea>
+                <span asp-validation-for="Message"></span>
+            </div>
+            <div class="application-point">
+                <input class="submit-changes" type="submit" value="Отправить отзыв" />
+            </div>
+        </form>
+    </div>
 </div>

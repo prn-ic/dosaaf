@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "988/3nn4Oi9ZPAL4Dj49cLw2oSDCKScWCiJjAIaS1/I=",
+  "Hash": "lSpxIy3w5UsWX5rWdDFSPFrF+lIVkLlzVJnDRgGXcXc=",
   "Source": "Dosaaf",
   "BasePath": "_content/Dosaaf",
   "Mode": "Default",
@@ -66,23 +66,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\static\\font\\Montserrat-Bold.ttf"
-    },
-    {
-      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\font\\Montserrat-Light.ttf",
-      "SourceId": "Dosaaf",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
-      "BasePath": "_content/Dosaaf",
-      "RelativePath": "static/font/Montserrat-Light.ttf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\font\\Montserrat-Light.ttf"
     },
     {
       "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\font\\Montserrat-Regular.ttf",
@@ -219,23 +202,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\static\\Icons\\logo.png"
-    },
-    {
-      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\logo.svg",
-      "SourceId": "Dosaaf",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
-      "BasePath": "_content/Dosaaf",
-      "RelativePath": "static/Icons/logo.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\Icons\\logo.svg"
     },
     {
       "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\Icons\\more.png",
@@ -406,23 +372,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\static\\Images\\steering-wheel.png"
-    },
-    {
-      "Identity": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\static\\js\\script.js",
-      "SourceId": "Dosaaf",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\wwwroot\\",
-      "BasePath": "_content/Dosaaf",
-      "RelativePath": "static/js/script.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\script.js"
     }
   ]
 }

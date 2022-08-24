@@ -6,11 +6,11 @@ namespace Dosaaf.Models
     {
         public int Id { get; set; }
         [Required (ErrorMessage = "Не указано имя")]
-        public string? Name { get; set; } = "Нет данных";
+        public string? Name { get; set; }
         [Required(ErrorMessage = "Не введен email")]
-        public string? Email { get; set; } = "Нет данных";
+        public string? Email { get; set; }
         [Required(ErrorMessage = "Не введено сообщение")]
-        public string? Message { get; set; } = "Нет данных";
+        public string? Message { get; set; }
         public DateTime TimeCreated { get; set; }
     }
 }

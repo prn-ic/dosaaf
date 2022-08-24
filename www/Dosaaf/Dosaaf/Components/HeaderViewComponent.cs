@@ -16,7 +16,6 @@ namespace Dosaaf.Components
                 { "Feedback", "Отзывы" }
             };
 
-
             return View("Header", pairsOfPages);
         }
     }

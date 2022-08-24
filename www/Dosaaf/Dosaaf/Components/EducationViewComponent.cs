@@ -14,7 +14,7 @@ namespace Dosaaf.Components
 
         public IViewComponentResult Invoke()
         {
-            IEnumerable<EducationModel> educations = _db.Educations.ToList();
+            IEnumerable<Education> educations = _db.Educations.ToList();
             return View("Education", educations);
         }
     }

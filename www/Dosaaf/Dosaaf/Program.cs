@@ -7,17 +7,15 @@ var builder = WebApplication.CreateBuilder(args);
 string connection = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddControllersWithViews();
-
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlite(connection));
-
-builder.Services.AddTransient<IDecoder, Decoder>();
-
+builder.Services.AddTransient<IEncryptionService, EncryptionService>();
 builder.Services.AddTransient<IEmailService, EmailService>();
 
 var app = builder.Build();
 
 app.UseStaticFiles();
 app.UseDefaultFiles();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{action}/{id?}",

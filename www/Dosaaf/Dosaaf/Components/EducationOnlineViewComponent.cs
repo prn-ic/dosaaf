@@ -13,7 +13,7 @@ namespace Dosaaf.Components
         }
         public IViewComponentResult Invoke()
         {
-            IEnumerable<OnlineEducationModel> onlineEducations = _db.OnlineEducations.ToList();
+            IEnumerable<OnlineEducation> onlineEducations = _db.OnlineEducations.ToList();
             return View("EducationOnline", onlineEducations);
         }
     }

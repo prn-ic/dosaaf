@@ -2,18 +2,18 @@
 
 namespace Dosaaf.Models
 {
-    public class EducationModel
+    public class OnlineEducation
     {
         public int Id { get; set; }
         [Required(ErrorMessage = "Не указано имя")]
-        public string? FirstName { get; set; } = "Нет данных";
+        public string? FirstName { get; set; }
         [Required(ErrorMessage = "Не указана фамилия")]
-        public string? LastName { get; set; } = "Нет данных";
+        public string? LastName { get; set; }
         [Required(ErrorMessage = "Не указан телефон")]
-        public string? Phone { get; set; } = "Нет данных";
+        public string? Phone { get; set; }
         [Required(ErrorMessage = "Не указан Email")]
-        public string? Email { get; set; } = "Нет данных";
-        public string? Category { get; set; } = "Нет данных";
+        public string? Email { get; set; }
+        public string? Category { get; set; }
         public DateTime? TimeCreated { get; set; }
     }
 }
