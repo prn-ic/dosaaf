@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mixBxjiLmalIsoQFnpOd7aITjyx8/fKuQSvUUVeHQfG7dytgzpaj4NNKZ7zeIyAPVBXAhJOyiME83+Y27XXWXQ==",
+  "dgSpecHash": "euC+k5ZzNu41Jp+B4k8wPe3lDCGyiZBXpL3qRpxSIwxVtuoZ6DQfnAY/JJyUdI8je8pKG5peanbNKfQ2MQVP1A==",
   "success": true,
-  "projectFilePath": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\Dosaaf.csproj",
+  "projectFilePath": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\Dosaaf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zmqp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\zmqp\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.8\\microsoft.data.sqlite.core.6.0.8.nupkg.sha512",

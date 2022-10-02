@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\Dosaaf.csproj": {}
+    "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\Dosaaf.csproj": {}
   },
   "projects": {
-    "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\Dosaaf.csproj": {
+    "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\Dosaaf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\Dosaaf.csproj",
+        "projectUniqueName": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\Dosaaf.csproj",
         "projectName": "Dosaaf",
-        "projectPath": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\Dosaaf.csproj",
+        "projectPath": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\Dosaaf.csproj",
         "packagesPath": "C:\\Users\\zmqp\\.nuget\\packages\\",
-        "outputPath": "D:\\zmqp project\\dosaaf\\www\\Dosaaf\\Dosaaf\\obj\\",
+        "outputPath": "D:\\zmqp project\\Dosaaf\\www\\Dosaaf\\Dosaaf\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
